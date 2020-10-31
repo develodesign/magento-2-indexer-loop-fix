@@ -1,0 +1,22 @@
+{
+    "name": "develo/module-indexerloopfix",
+    "description": "Fixes the Magento Indexer Loop bug https://github.com/magento/magento2/pull/29196",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Luke Collymore",
+            "email": "luke@develodesign.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Develo\\IndexerLoopFix\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
