@@ -1,27 +1,22 @@
 # Mage2 Module Develo IndexerLoopFix
 
-    ``develo/module-indexerloopfix``
-
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
+    develo/module-indexerloopfix
 
 
-## Main Functionalities
+## Main Functionality
 Fixes the Magento Indexer Loop bug https://github.com/magento/magento2/pull/29196
 
 ## Installation
-\* = in production please use the `--keep-generated` option
 
-### Type 1: Zip file
+### Type 1: Composer (Preferred)
 
- - Unzip the zip file in `app/code/Develo`
- - Enable the module by running `php bin/magento module:enable Develo_IndexerLoopFix`
- - Flush the cache by running `php bin/magento cache:flush`
-
-### Type 2: Composer
-
- - Install the module composer by running `composer require develo/module-indexerloopfix`
+ - Install the module composer by running `composer require develo/module-indexerloopfix` 
  - enable the module by running `php bin/magento module:enable Develo_IndexerLoopFix`
  - Flush the cache by running `php bin/magento cache:flush`
+ \* = in production please use the `--keep-generated` option
 
+### Type 2: Zip file
 
+ - Download and Unzip the folder into the new dir structure `app/code/Develo/IndexerLoopFix`
+ - Enable the module by running `php bin/magento module:enable Develo_IndexerLoopFix`
+ - Flush the cache by running `php bin/magento cache:flush`
