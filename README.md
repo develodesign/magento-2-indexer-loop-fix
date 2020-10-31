@@ -5,6 +5,8 @@
 
 ## Main Functionality
 Fixes the Magento Indexer Loop bug https://github.com/magento/magento2/pull/29196
+As this PR will be in Magento 2.4.2, this applies the core PR code and fixes the issue in earlier versions, tested in 2.3.5-p1
+
 
 ## Installation
 
